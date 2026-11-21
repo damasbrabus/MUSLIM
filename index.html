@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Namoz vaqti</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="logo">🕌 Namoz</div>
+  <nav id="nav"></nav>
+  <div class="lw"><button id="lb">🌐 UZ</button><div id="lm"></div></div>
+</header>
+<main>
+  <section id="home">
+    <div class="card">
+      <div class="big" id="clk">--:--:--</div>
+      <div class="mut" id="dt"></div>
+      <div class="nx"><span class="mut" id="nxl"></span><br><b id="nxn"></b> · <b id="nxt"></b><div class="mut" id="nxr"></div></div>
+      <div id="pt"></div>
+      <div class="btns"><button class="p" id="nb"></button><button id="lc"></button></div>
+      <div class="mut" id="ln" style="margin-top:10px"></div>
+    </div>
+  </section>
+  <section id="tasbeh">
+    <div class="card">
+      <h2 id="th"></h2>
+      <div id="tc" role="button" tabindex="0">0</div>
+      <div class="mut"><span id="tl"></span>: <b id="tr">0</b></div>
+      <div class="btns" id="tg"></div>
+      <div class="btns"><button id="tz"></button></div>
+    </div>
+  </section>
+  <section id="qibla">
+    <div class="card">
+      <h2 id="qh"></h2>
+      <div class="dw" id="dw"><div class="ptr"></div><div class="dial" id="dial"><i>N</i><div class="kb" id="kb"><span>🕋</span></div></div></div>
+      <div class="big" style="font-size:36px" id="qd">--°</div>
+      <div class="mut" id="qt"></div>
+      <div class="btns"><button class="p" id="qs"></button><button id="ql"></button></div>
+    </div>
+  </section>
+  <section id="world">
+    <h2 id="wh"></h2>
+    <input id="ws" type="search" style="width:100%;padding:11px 14px;margin-bottom:12px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);font:inherit">
+    <div class="wg" id="wg"></div>
+  </section>
+</main>
+<div id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
